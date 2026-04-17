@@ -1,4 +1,4 @@
-package com.codewithmosh.store.config;
+package com.ali.store.config;
 
 
 import io.jsonwebtoken.security.Keys;
