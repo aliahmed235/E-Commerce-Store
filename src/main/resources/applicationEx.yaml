@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: store
+  jwt:
+    secret: ${JWT_SECRET}
+    accessTokenExpiration: 7200
+    refreshTokenExpiration: 604800
+  datasource:
+    url: jdbc:mysql://localhost:3306/store_api?createDatabaseIfNotExist=true
+    username: root
+    password: password
+  jpa:
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+stripe:
+  secret:
+    key: ${STRIPE_SECRET_KEY}
+  webhook:
+    secret-key: ${STRIPE_WEBHOOK_SECRET}
+website:
+  url: ${WEBSITE_URL}
