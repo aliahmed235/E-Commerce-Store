@@ -1,6 +1,6 @@
-package com.codewithmosh.store.payments;
+package com.ali.store.payments;
 
-import com.codewithmosh.store.entities.Order;
+import com.ali.store.entities.Order;
 
 import java.util.Optional;
 
