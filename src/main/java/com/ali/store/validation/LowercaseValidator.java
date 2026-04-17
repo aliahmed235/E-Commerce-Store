@@ -1,6 +1,5 @@
-package com.codewithmosh.store.validation;
+package com.ali.store.validation;
 
-import jakarta.validation.Constraint;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
