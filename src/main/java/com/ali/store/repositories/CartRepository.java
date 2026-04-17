@@ -1,6 +1,6 @@
-package com.codewithmosh.store.repositories;
+package com.ali.store.repositories;
 
-import com.codewithmosh.store.entities.Cart;
+import com.ali.store.entities.Cart;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
