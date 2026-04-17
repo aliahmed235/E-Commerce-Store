@@ -1,9 +1,9 @@
 // java
-package com.codewithmosh.store.mappers;
+package com.ali.store.mappers;
 
-import com.codewithmosh.store.dtos.*;
-import com.codewithmosh.store.entities.Product;
-import com.codewithmosh.store.entities.User;
+import com.ali.store.dtos.ProductDto;
+import com.ali.store.dtos.*;
+import com.ali.store.entities.Product;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingTarget;
