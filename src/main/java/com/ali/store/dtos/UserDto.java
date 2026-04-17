@@ -1,4 +1,4 @@
-package com.codewithmosh.store.dtos;
+package com.ali.store.dtos;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
