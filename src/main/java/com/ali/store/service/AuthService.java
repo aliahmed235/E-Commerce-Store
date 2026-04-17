@@ -1,7 +1,7 @@
-package com.codewithmosh.store.service;
+package com.ali.store.service;
 
-import com.codewithmosh.store.entities.User;
-import com.codewithmosh.store.repositories.UserRepository;
+import com.ali.store.entities.User;
+import com.ali.store.repositories.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
