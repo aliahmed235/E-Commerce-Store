@@ -1,6 +1,6 @@
-package com.codewithmosh.store.payments;
+package com.ali.store.payments;
 
-import com.codewithmosh.store.entities.PaymentStatus;
+import com.ali.store.entities.PaymentStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
