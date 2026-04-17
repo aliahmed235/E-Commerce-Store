@@ -1,7 +1,7 @@
-package com.codewithmosh.store.controllers;
+package com.ali.store.controllers;
 
 
-import com.codewithmosh.store.dtos.ErrorDto;
+import com.ali.store.dtos.ErrorDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
