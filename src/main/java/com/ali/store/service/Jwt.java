@@ -1,7 +1,7 @@
-package com.codewithmosh.store.service;
+package com.ali.store.service;
 
 
-import com.codewithmosh.store.entities.Role;
+import com.ali.store.entities.Role;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 
