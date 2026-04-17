@@ -1,6 +1,6 @@
-package com.codewithmosh.store.filters;
+package com.ali.store.filters;
 
-import com.codewithmosh.store.service.JwtService;
+import com.ali.store.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
