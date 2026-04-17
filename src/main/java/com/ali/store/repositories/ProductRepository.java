@@ -1,6 +1,6 @@
-package com.codewithmosh.store.repositories;
+package com.ali.store.repositories;
 
-import com.codewithmosh.store.entities.Product;
+import com.ali.store.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
