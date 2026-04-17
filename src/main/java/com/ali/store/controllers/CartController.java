@@ -1,22 +1,22 @@
 
-package com.codewithmosh.store.controllers;
+package com.ali.store.controllers;
 
-import com.codewithmosh.store.dtos.AddItemToCartRequest;
-import com.codewithmosh.store.dtos.CartDto;
-import com.codewithmosh.store.dtos.CartItemDto;
-import com.codewithmosh.store.dtos.UpdateCartItemRequest;
-import com.codewithmosh.store.exceptions.CartNotFoundException;
-import com.codewithmosh.store.exceptions.ProductNotFoundException;
-import com.codewithmosh.store.mappers.CartMapper;
-import com.codewithmosh.store.repositories.CartRepository;
-import com.codewithmosh.store.repositories.ProductRepository;
+import com.ali.store.dtos.AddItemToCartRequest;
+import com.ali.store.dtos.CartDto;
+import com.ali.store.dtos.CartItemDto;
+import com.ali.store.dtos.UpdateCartItemRequest;
+import com.ali.store.exceptions.CartNotFoundException;
+import com.ali.store.exceptions.ProductNotFoundException;
+import com.ali.store.mappers.CartMapper;
+import com.ali.store.repositories.CartRepository;
+import com.ali.store.repositories.ProductRepository;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
-import com.codewithmosh.store.service.CartService;
+import com.ali.store.service.CartService;
 
 import java.util.Map;
 import java.util.UUID;
