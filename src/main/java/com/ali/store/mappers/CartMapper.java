@@ -1,11 +1,11 @@
 // java
-package com.codewithmosh.store.mappers;
+package com.ali.store.mappers;
 
-import com.codewithmosh.store.dtos.CartDto;
-import com.codewithmosh.store.dtos.CartItemDto;
+import com.ali.store.dtos.CartDto;
+import com.ali.store.dtos.CartItemDto;
 
-import com.codewithmosh.store.entities.Cart;
-import com.codewithmosh.store.entities.CartItem;
+import com.ali.store.entities.Cart;
+import com.ali.store.entities.CartItem;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
