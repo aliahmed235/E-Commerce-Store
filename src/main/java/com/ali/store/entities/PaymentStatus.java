@@ -1,4 +1,4 @@
-package com.codewithmosh.store.entities;
+package com.ali.store.entities;
 
 public enum PaymentStatus {
     PENDING,
