@@ -1,9 +1,9 @@
-package com.codewithmosh.store.payments;
+package com.ali.store.payments;
 
-import com.codewithmosh.store.dtos.ErrorDto;
-import com.codewithmosh.store.exceptions.CartEmptyException;
-import com.codewithmosh.store.exceptions.CartNotFoundException;
-import com.codewithmosh.store.repositories.OrderRepository;
+import com.ali.store.dtos.ErrorDto;
+import com.ali.store.exceptions.CartEmptyException;
+import com.ali.store.exceptions.CartNotFoundException;
+import com.ali.store.repositories.OrderRepository;
 import com.stripe.exception.StripeException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
