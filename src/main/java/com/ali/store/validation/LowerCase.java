@@ -1,6 +1,5 @@
-package com.codewithmosh.store.validation;
+package com.ali.store.validation;
 
-import jakarta.persistence.Table;
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;
 
