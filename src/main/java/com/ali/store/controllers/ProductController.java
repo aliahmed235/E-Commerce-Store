@@ -1,17 +1,13 @@
-package com.codewithmosh.store.controllers;
+package com.ali.store.controllers;
 
-import com.codewithmosh.store.dtos.CreateProduct;
-import com.codewithmosh.store.dtos.ProductDto;
-import com.codewithmosh.store.dtos.UpdateProductRequest;
-import com.codewithmosh.store.entities.Product;
-import com.codewithmosh.store.mappers.ProductMapper;
-import com.codewithmosh.store.repositories.CategoryRepository;
-import com.codewithmosh.store.repositories.ProductRepository;
+import com.ali.store.dtos.ProductDto;
+import com.ali.store.entities.Product;
+import com.ali.store.mappers.ProductMapper;
+import com.ali.store.repositories.CategoryRepository;
+import com.ali.store.repositories.ProductRepository;
 import lombok.AllArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.List;
