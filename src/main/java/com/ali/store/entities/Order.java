@@ -1,13 +1,9 @@
-package com.codewithmosh.store.entities;
+package com.ali.store.entities;
 
-import com.codewithmosh.store.dtos.ErrorDto;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
-import org.hibernate.annotations.ColumnDefault;
-import org.springframework.http.ResponseEntity;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
