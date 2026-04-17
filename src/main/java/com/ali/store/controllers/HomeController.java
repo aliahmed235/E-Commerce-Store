@@ -1,4 +1,4 @@
-package com.codewithmosh.store.controllers;
+package com.ali.store.controllers;
 
 
 import org.springframework.stereotype.Controller;
