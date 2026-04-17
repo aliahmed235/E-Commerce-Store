@@ -1,11 +1,11 @@
 // java
-package com.codewithmosh.store.dtos;
+package com.ali.store.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
-import com.codewithmosh.store.validation.LowerCase;
+import com.ali.store.validation.LowerCase;
 
 @Data
 public class RegisterUserRequest {
