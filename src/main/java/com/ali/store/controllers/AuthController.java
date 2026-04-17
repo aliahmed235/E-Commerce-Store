@@ -1,14 +1,12 @@
-package com.codewithmosh.store.controllers;
+package com.ali.store.controllers;
 
-import com.codewithmosh.store.config.JwtConfig;
-import com.codewithmosh.store.dtos.JwtResponse;
-import com.codewithmosh.store.dtos.LoginRequest;
-import com.codewithmosh.store.dtos.UserDto;
-import com.codewithmosh.store.mappers.UserMapper;
-import com.codewithmosh.store.repositories.UserRepository;
-import com.codewithmosh.store.service.JwtService;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.security.Keys;
+import com.ali.store.config.JwtConfig;
+import com.ali.store.dtos.JwtResponse;
+import com.ali.store.dtos.LoginRequest;
+import com.ali.store.dtos.UserDto;
+import com.ali.store.mappers.UserMapper;
+import com.ali.store.repositories.UserRepository;
+import com.ali.store.service.JwtService;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.validation.Valid;
