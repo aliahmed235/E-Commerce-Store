@@ -1,8 +1,8 @@
-package com.codewithmosh.store.config;
+package com.ali.store.config;
 
 
-import com.codewithmosh.store.entities.Role;
-import com.codewithmosh.store.filters.JwtAuthenticationFilter;
+import com.ali.store.entities.Role;
+import com.ali.store.filters.JwtAuthenticationFilter;
 import lombok.AllArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
