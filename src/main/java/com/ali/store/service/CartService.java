@@ -1,23 +1,17 @@
-package com.codewithmosh.store.service;
+package com.ali.store.service;
 
-import com.codewithmosh.store.dtos.CartDto;
-import com.codewithmosh.store.dtos.CartItemDto;
-import com.codewithmosh.store.dtos.UpdateCartItemRequest;
-import com.codewithmosh.store.entities.Cart;
-import com.codewithmosh.store.entities.CartItem;
-import com.codewithmosh.store.exceptions.CartNotFoundException;
-import com.codewithmosh.store.exceptions.ProductNotFoundException;
-import com.codewithmosh.store.mappers.CartMapper;
-import com.codewithmosh.store.repositories.CartRepository;
-import com.codewithmosh.store.repositories.ProductRepository;
-import lombok.Data;
+import com.ali.store.dtos.CartDto;
+import com.ali.store.dtos.CartItemDto;
+import com.ali.store.dtos.UpdateCartItemRequest;
+import com.ali.store.entities.Cart;
+import com.ali.store.exceptions.CartNotFoundException;
+import com.ali.store.exceptions.ProductNotFoundException;
+import com.ali.store.mappers.CartMapper;
+import com.ali.store.repositories.CartRepository;
+import com.ali.store.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.data.jpa.repository.support.SimpleJpaRepository;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.util.Map;
 import java.util.UUID;
 
 
