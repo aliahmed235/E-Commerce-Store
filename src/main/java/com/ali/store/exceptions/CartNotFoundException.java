@@ -1,4 +1,4 @@
-package com.codewithmosh.store.exceptions;
+package com.ali.store.exceptions;
 
 public class CartNotFoundException extends RuntimeException {
     public CartNotFoundException() {
