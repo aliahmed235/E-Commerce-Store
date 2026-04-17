@@ -1,6 +1,6 @@
-package com.codewithmosh.store.service;
+package com.ali.store.service;
 
-import com.codewithmosh.store.repositories.UserRepository;
+import com.ali.store.repositories.UserRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
